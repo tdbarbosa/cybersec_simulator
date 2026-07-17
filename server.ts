@@ -23,7 +23,7 @@ const ai = new GoogleGenAI({
 
 // Helper function to handle robust Gemini API calls with retries and a fallback model in case of 503/429/UNAVAILABLE errors
 async function generateContentWithRetry(params: any, maxRetries = 3) {
-  const modelsToTry = [params.model || "gemini-3.5-flash", "gemini-3.1-flash-lite"];
+  const modelsToTry = [params.model || "gemini-3.5-flash", "gemini-3.1-flash-lite", "gemini-flash-latest"];
   let lastError: any = null;
 
   for (const modelName of modelsToTry) {
