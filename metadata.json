@@ -1,0 +1,6 @@
+{
+  "name": "Cybersecurity AI Simulator & Study Sandbox",
+  "description": "Uma plataforma de estudo de cibersegurança com simulador de rede interativo, terminal de comando auxiliado por IA e missões práticas de ataque e defesa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
